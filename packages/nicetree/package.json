@@ -16,6 +16,11 @@
   "scripts": {
     "build": "bun build src/index.ts --outdir dist --format esm && bun x tsc --emitDeclarationOnly --declaration --outDir dist"
   },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "material-file-icons": "^2.4.0",
+    "tailwind-merge": "^3.5.0"
+  },
   "devDependencies": {
     "@types/react": "latest",
     "react": "latest",

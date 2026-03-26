@@ -1,6 +1,3 @@
-interface TreeNode {
-  children?: TreeNode[]
-  name: string
-  path: string
-}
-export type { TreeNode }
+export type { TreeNode } from './file-tree'
+export { FileTree } from './file-tree'
+export { FileIcon, FolderIcon } from './icon'
